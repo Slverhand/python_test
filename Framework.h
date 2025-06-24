@@ -32,8 +32,8 @@ public:
 	int getRandom( int max = 0 );
 
 	void drawDebugString( 
-		int column, //列（x）
-		int row, //行（y）
+		int column, 
+		int row, 
 		const char* string, 
 		unsigned color = 0xffffffff );
 
